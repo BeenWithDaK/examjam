@@ -1,0 +1,202 @@
+[
+  {
+    "id": "chem-mole-01",
+    "topic": "chemistry",
+    "unit": "Chemical Quantities",
+    "prompt": "How many particles are in one mole of any substance?",
+    "choices": ["6.02 x 10^23", "3.14 x 10^8", "1.00 x 10^12", "22.4 x 10^2"],
+    "answerIndex": 0,
+    "explanation": "Avogadro's number is 6.02 x 10^23 particles per mole."
+  },
+  {
+    "id": "chem-mole-02",
+    "topic": "chemistry",
+    "unit": "Molar Relationships",
+    "prompt": "What conversion factor changes grams of a substance into moles?",
+    "choices": ["Atomic number", "Molar mass", "Density of water", "Percent yield"],
+    "answerIndex": 1,
+    "explanation": "Molar mass is grams per mole, so it converts between mass and moles."
+  },
+  {
+    "id": "chem-stoich-01",
+    "topic": "chemistry",
+    "unit": "Stoichiometry",
+    "prompt": "In a balanced chemical equation, what do coefficients represent?",
+    "choices": ["Masses only", "Mole ratios", "Charges only", "Atomic numbers"],
+    "answerIndex": 1,
+    "explanation": "Coefficients give the mole ratios used in stoichiometry."
+  },
+  {
+    "id": "chem-empirical-01",
+    "topic": "chemistry",
+    "unit": "Percent Composition and Empirical Formulas",
+    "prompt": "An empirical formula shows the compound's...",
+    "choices": ["Exact molecule size", "Simplest whole-number atom ratio", "Boiling point", "Reaction speed"],
+    "answerIndex": 1,
+    "explanation": "Empirical formulas reduce subscripts to the simplest whole-number ratio."
+  },
+  {
+    "id": "chem-reaction-01",
+    "topic": "chemistry",
+    "unit": "Chemical Reactions",
+    "prompt": "Which observation is common evidence that a chemical reaction occurred?",
+    "choices": ["The sample is cut in half", "A gas forms", "The object is bent", "The material is sorted"],
+    "answerIndex": 1,
+    "explanation": "Gas formation, color change, precipitate formation, and energy change are common reaction evidence."
+  },
+  {
+    "id": "chem-bonding-01",
+    "topic": "chemistry",
+    "unit": "Chemical Bonding",
+    "prompt": "An ionic bond usually forms when...",
+    "choices": ["Two metals share electrons", "A metal transfers electrons to a nonmetal", "Two noble gases fuse", "Neutrons are exchanged"],
+    "answerIndex": 1,
+    "explanation": "Ionic bonding is based on electron transfer, commonly between metals and nonmetals."
+  },
+  {
+    "id": "hist-cold-war-01",
+    "topic": "history",
+    "unit": "Cold War, 1945-1963",
+    "prompt": "What was the main goal of the U.S. policy of containment?",
+    "choices": ["Spread communism worldwide", "Stop communism from expanding", "End all trade with Europe", "Return to isolationism"],
+    "answerIndex": 1,
+    "explanation": "Containment aimed to prevent the spread of communism into new regions."
+  },
+  {
+    "id": "hist-cold-war-02",
+    "topic": "history",
+    "unit": "Cold War, 1945-1963",
+    "prompt": "The Berlin Airlift was a response to...",
+    "choices": ["A Soviet blockade of West Berlin", "The Cuban Missile Crisis", "The launch of Sputnik", "The Vietnam draft"],
+    "answerIndex": 0,
+    "explanation": "The U.S. and allies supplied West Berlin by air after the Soviet blockade."
+  },
+  {
+    "id": "hist-rights-01",
+    "topic": "history",
+    "unit": "Civil Rights Movement",
+    "prompt": "Brown v. Board of Education ruled that segregated public schools were...",
+    "choices": ["Constitutional if equal", "Unconstitutional", "Required by states", "Only illegal in colleges"],
+    "answerIndex": 1,
+    "explanation": "The Supreme Court rejected school segregation under the Equal Protection Clause."
+  },
+  {
+    "id": "hist-rights-02",
+    "topic": "history",
+    "unit": "Civil Rights Movement",
+    "prompt": "Which law banned segregation in many public places and employment discrimination?",
+    "choices": ["Civil Rights Act of 1964", "Homestead Act", "Social Security Act", "Neutrality Act"],
+    "answerIndex": 0,
+    "explanation": "The Civil Rights Act of 1964 was a major federal civil rights law."
+  },
+  {
+    "id": "hist-vietnam-01",
+    "topic": "history",
+    "unit": "Vietnam Era, 1954-1975",
+    "prompt": "The Gulf of Tonkin Resolution gave President Johnson...",
+    "choices": ["Authority to expand military action in Vietnam", "Power to end NATO", "A treaty with the Soviet Union", "Control over state schools"],
+    "answerIndex": 0,
+    "explanation": "Congress gave Johnson broad authority to escalate U.S. involvement in Vietnam."
+  },
+  {
+    "id": "hist-modern-01",
+    "topic": "history",
+    "unit": "Modern America, 1980-Present",
+    "prompt": "Reaganomics is most associated with...",
+    "choices": ["Higher taxes on businesses", "Supply-side tax cuts and deregulation", "Ending the Cold War in 1981", "A ban on computers"],
+    "answerIndex": 1,
+    "explanation": "Reaganomics emphasized tax cuts, deregulation, and supply-side economic policy."
+  },
+  {
+    "id": "geo-slope-01",
+    "topic": "geometry",
+    "unit": "Algebra Review",
+    "prompt": "What is the slope of the line passing through (-2, 1) and (2, 5)?",
+    "choices": ["1", "2", "-1", "4"],
+    "answerIndex": 0,
+    "explanation": "Slope = (5 - 1) / (2 - (-2)) = 4 / 4 = 1.",
+    "graph": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -2,
+      "yMax": 8,
+      "points": [
+        { "x": -2, "y": 1, "label": "(-2, 1)" },
+        { "x": 2, "y": 5, "label": "(2, 5)" }
+      ],
+      "lines": [
+        { "slope": 1, "intercept": 3, "label": "y = x + 3" }
+      ]
+    }
+  },
+  {
+    "id": "geo-intercept-01",
+    "topic": "geometry",
+    "unit": "Algebra Review",
+    "prompt": "In the equation y = 2x - 3, what is the y-intercept?",
+    "choices": ["2", "-3", "3", "-2"],
+    "answerIndex": 1,
+    "explanation": "Slope-intercept form is y = mx + b. The y-intercept is b = -3.",
+    "graph": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -6,
+      "yMax": 6,
+      "lines": [
+        { "slope": 2, "intercept": -3, "label": "y = 2x - 3" }
+      ],
+      "points": [
+        { "x": 0, "y": -3, "label": "b = -3" }
+      ]
+    }
+  },
+  {
+    "id": "geo-equation-01",
+    "topic": "geometry",
+    "unit": "Algebra Review",
+    "prompt": "Solve: 3x + 5 = 20",
+    "choices": ["x = 5", "x = 15", "x = 25", "x = 8"],
+    "answerIndex": 0,
+    "explanation": "Subtract 5 to get 3x = 15, then divide by 3 to get x = 5."
+  },
+  {
+    "id": "geo-system-01",
+    "topic": "geometry",
+    "unit": "Algebra Review",
+    "prompt": "What is the solution to the system y = x + 1 and y = -x + 5?",
+    "choices": ["(2, 3)", "(3, 2)", "(1, 5)", "(0, 1)"],
+    "answerIndex": 0,
+    "explanation": "Set x + 1 = -x + 5, so 2x = 4 and x = 2. Then y = 3.",
+    "graph": {
+      "xMin": -1,
+      "xMax": 6,
+      "yMin": -1,
+      "yMax": 7,
+      "lines": [
+        { "slope": 1, "intercept": 1, "label": "y = x + 1" },
+        { "slope": -1, "intercept": 5, "label": "y = -x + 5" }
+      ],
+      "points": [
+        { "x": 2, "y": 3, "label": "(2, 3)" }
+      ]
+    }
+  },
+  {
+    "id": "geo-function-01",
+    "topic": "geometry",
+    "unit": "Algebra Review",
+    "prompt": "If f(x) = x^2 - 4, what is f(3)?",
+    "choices": ["5", "9", "13", "-1"],
+    "answerIndex": 0,
+    "explanation": "f(3) = 3^2 - 4 = 9 - 4 = 5."
+  },
+  {
+    "id": "geo-inequality-01",
+    "topic": "geometry",
+    "unit": "Algebra Review",
+    "prompt": "Which value makes 2x - 1 > 7 true?",
+    "choices": ["x = 3", "x = 4", "x = 5", "x = 0"],
+    "answerIndex": 2,
+    "explanation": "2x - 1 > 7 gives 2x > 8, so x > 4. x = 5 works."
+  }
+]
