@@ -4,7 +4,12 @@
     "topic": "chemistry",
     "unit": "Chemical Quantities",
     "prompt": "How many particles are in one mole of any substance?",
-    "choices": ["6.02 x 10^23", "3.14 x 10^8", "1.00 x 10^12", "22.4 x 10^2"],
+    "choices": [
+      "6.02 x 10^23",
+      "3.14 x 10^8",
+      "1.00 x 10^12",
+      "22.4 x 10^2"
+    ],
     "answerIndex": 0,
     "explanation": "Avogadro's number is 6.02 x 10^23 particles per mole."
   },
@@ -13,7 +18,12 @@
     "topic": "chemistry",
     "unit": "Molar Relationships",
     "prompt": "What conversion factor changes grams of a substance into moles?",
-    "choices": ["Atomic number", "Molar mass", "Density of water", "Percent yield"],
+    "choices": [
+      "Atomic number",
+      "Molar mass",
+      "Density of water",
+      "Percent yield"
+    ],
     "answerIndex": 1,
     "explanation": "Molar mass is grams per mole, so it converts between mass and moles."
   },
@@ -22,7 +32,12 @@
     "topic": "chemistry",
     "unit": "Stoichiometry",
     "prompt": "In a balanced chemical equation, what do coefficients represent?",
-    "choices": ["Masses only", "Mole ratios", "Charges only", "Atomic numbers"],
+    "choices": [
+      "Masses only",
+      "Mole ratios",
+      "Charges only",
+      "Atomic numbers"
+    ],
     "answerIndex": 1,
     "explanation": "Coefficients give the mole ratios used in stoichiometry."
   },
@@ -31,7 +46,12 @@
     "topic": "chemistry",
     "unit": "Percent Composition and Empirical Formulas",
     "prompt": "An empirical formula shows the compound's...",
-    "choices": ["Exact molecule size", "Simplest whole-number atom ratio", "Boiling point", "Reaction speed"],
+    "choices": [
+      "Exact molecule size",
+      "Simplest whole-number atom ratio",
+      "Boiling point",
+      "Reaction speed"
+    ],
     "answerIndex": 1,
     "explanation": "Empirical formulas reduce subscripts to the simplest whole-number ratio."
   },
@@ -40,7 +60,12 @@
     "topic": "chemistry",
     "unit": "Chemical Reactions",
     "prompt": "Which observation is common evidence that a chemical reaction occurred?",
-    "choices": ["The sample is cut in half", "A gas forms", "The object is bent", "The material is sorted"],
+    "choices": [
+      "The sample is cut in half",
+      "A gas forms",
+      "The object is bent",
+      "The material is sorted"
+    ],
     "answerIndex": 1,
     "explanation": "Gas formation, color change, precipitate formation, and energy change are common reaction evidence."
   },
@@ -49,7 +74,12 @@
     "topic": "chemistry",
     "unit": "Chemical Bonding",
     "prompt": "An ionic bond usually forms when...",
-    "choices": ["Two metals share electrons", "A metal transfers electrons to a nonmetal", "Two noble gases fuse", "Neutrons are exchanged"],
+    "choices": [
+      "Two metals share electrons",
+      "A metal transfers electrons to a nonmetal",
+      "Two noble gases fuse",
+      "Neutrons are exchanged"
+    ],
     "answerIndex": 1,
     "explanation": "Ionic bonding is based on electron transfer, commonly between metals and nonmetals."
   },
@@ -58,7 +88,12 @@
     "topic": "history",
     "unit": "Cold War, 1945-1963",
     "prompt": "What was the main goal of the U.S. policy of containment?",
-    "choices": ["Spread communism worldwide", "Stop communism from expanding", "End all trade with Europe", "Return to isolationism"],
+    "choices": [
+      "Spread communism worldwide",
+      "Stop communism from expanding",
+      "End all trade with Europe",
+      "Return to isolationism"
+    ],
     "answerIndex": 1,
     "explanation": "Containment aimed to prevent the spread of communism into new regions."
   },
@@ -67,7 +102,12 @@
     "topic": "history",
     "unit": "Cold War, 1945-1963",
     "prompt": "The Berlin Airlift was a response to...",
-    "choices": ["A Soviet blockade of West Berlin", "The Cuban Missile Crisis", "The launch of Sputnik", "The Vietnam draft"],
+    "choices": [
+      "A Soviet blockade of West Berlin",
+      "The Cuban Missile Crisis",
+      "The launch of Sputnik",
+      "The Vietnam draft"
+    ],
     "answerIndex": 0,
     "explanation": "The U.S. and allies supplied West Berlin by air after the Soviet blockade."
   },
@@ -76,7 +116,12 @@
     "topic": "history",
     "unit": "Civil Rights Movement",
     "prompt": "Brown v. Board of Education ruled that segregated public schools were...",
-    "choices": ["Constitutional if equal", "Unconstitutional", "Required by states", "Only illegal in colleges"],
+    "choices": [
+      "Constitutional if equal",
+      "Unconstitutional",
+      "Required by states",
+      "Only illegal in colleges"
+    ],
     "answerIndex": 1,
     "explanation": "The Supreme Court rejected school segregation under the Equal Protection Clause."
   },
@@ -85,7 +130,12 @@
     "topic": "history",
     "unit": "Civil Rights Movement",
     "prompt": "Which law banned segregation in many public places and employment discrimination?",
-    "choices": ["Civil Rights Act of 1964", "Homestead Act", "Social Security Act", "Neutrality Act"],
+    "choices": [
+      "Civil Rights Act of 1964",
+      "Homestead Act",
+      "Social Security Act",
+      "Neutrality Act"
+    ],
     "answerIndex": 0,
     "explanation": "The Civil Rights Act of 1964 was a major federal civil rights law."
   },
@@ -94,7 +144,12 @@
     "topic": "history",
     "unit": "Vietnam Era, 1954-1975",
     "prompt": "The Gulf of Tonkin Resolution gave President Johnson...",
-    "choices": ["Authority to expand military action in Vietnam", "Power to end NATO", "A treaty with the Soviet Union", "Control over state schools"],
+    "choices": [
+      "Authority to expand military action in Vietnam",
+      "Power to end NATO",
+      "A treaty with the Soviet Union",
+      "Control over state schools"
+    ],
     "answerIndex": 0,
     "explanation": "Congress gave Johnson broad authority to escalate U.S. involvement in Vietnam."
   },
@@ -103,7 +158,12 @@
     "topic": "history",
     "unit": "Modern America, 1980-Present",
     "prompt": "Reaganomics is most associated with...",
-    "choices": ["Higher taxes on businesses", "Supply-side tax cuts and deregulation", "Ending the Cold War in 1981", "A ban on computers"],
+    "choices": [
+      "Higher taxes on businesses",
+      "Supply-side tax cuts and deregulation",
+      "Ending the Cold War in 1981",
+      "A ban on computers"
+    ],
     "answerIndex": 1,
     "explanation": "Reaganomics emphasized tax cuts, deregulation, and supply-side economic policy."
   },
@@ -112,7 +172,12 @@
     "topic": "geometry",
     "unit": "Algebra Review",
     "prompt": "What is the slope of the line passing through (-2, 1) and (2, 5)?",
-    "choices": ["1", "2", "-1", "4"],
+    "choices": [
+      "1",
+      "2",
+      "-1",
+      "4"
+    ],
     "answerIndex": 0,
     "explanation": "Slope = (5 - 1) / (2 - (-2)) = 4 / 4 = 1.",
     "graph": {
@@ -121,11 +186,23 @@
       "yMin": -2,
       "yMax": 8,
       "points": [
-        { "x": -2, "y": 1, "label": "(-2, 1)" },
-        { "x": 2, "y": 5, "label": "(2, 5)" }
+        {
+          "x": -2,
+          "y": 1,
+          "label": "(-2, 1)"
+        },
+        {
+          "x": 2,
+          "y": 5,
+          "label": "(2, 5)"
+        }
       ],
       "lines": [
-        { "slope": 1, "intercept": 3, "label": "y = x + 3" }
+        {
+          "slope": 1,
+          "intercept": 3,
+          "label": "y = x + 3"
+        }
       ]
     }
   },
@@ -134,7 +211,12 @@
     "topic": "geometry",
     "unit": "Algebra Review",
     "prompt": "In the equation y = 2x - 3, what is the y-intercept?",
-    "choices": ["2", "-3", "3", "-2"],
+    "choices": [
+      "2",
+      "-3",
+      "3",
+      "-2"
+    ],
     "answerIndex": 1,
     "explanation": "Slope-intercept form is y = mx + b. The y-intercept is b = -3.",
     "graph": {
@@ -143,10 +225,18 @@
       "yMin": -6,
       "yMax": 6,
       "lines": [
-        { "slope": 2, "intercept": -3, "label": "y = 2x - 3" }
+        {
+          "slope": 2,
+          "intercept": -3,
+          "label": "y = 2x - 3"
+        }
       ],
       "points": [
-        { "x": 0, "y": -3, "label": "b = -3" }
+        {
+          "x": 0,
+          "y": -3,
+          "label": "b = -3"
+        }
       ]
     }
   },
@@ -155,7 +245,12 @@
     "topic": "geometry",
     "unit": "Algebra Review",
     "prompt": "Solve: 3x + 5 = 20",
-    "choices": ["x = 5", "x = 15", "x = 25", "x = 8"],
+    "choices": [
+      "x = 5",
+      "x = 15",
+      "x = 25",
+      "x = 8"
+    ],
     "answerIndex": 0,
     "explanation": "Subtract 5 to get 3x = 15, then divide by 3 to get x = 5."
   },
@@ -164,7 +259,12 @@
     "topic": "geometry",
     "unit": "Algebra Review",
     "prompt": "What is the solution to the system y = x + 1 and y = -x + 5?",
-    "choices": ["(2, 3)", "(3, 2)", "(1, 5)", "(0, 1)"],
+    "choices": [
+      "(2, 3)",
+      "(3, 2)",
+      "(1, 5)",
+      "(0, 1)"
+    ],
     "answerIndex": 0,
     "explanation": "Set x + 1 = -x + 5, so 2x = 4 and x = 2. Then y = 3.",
     "graph": {
@@ -173,11 +273,23 @@
       "yMin": -1,
       "yMax": 7,
       "lines": [
-        { "slope": 1, "intercept": 1, "label": "y = x + 1" },
-        { "slope": -1, "intercept": 5, "label": "y = -x + 5" }
+        {
+          "slope": 1,
+          "intercept": 1,
+          "label": "y = x + 1"
+        },
+        {
+          "slope": -1,
+          "intercept": 5,
+          "label": "y = -x + 5"
+        }
       ],
       "points": [
-        { "x": 2, "y": 3, "label": "(2, 3)" }
+        {
+          "x": 2,
+          "y": 3,
+          "label": "(2, 3)"
+        }
       ]
     }
   },
@@ -186,7 +298,12 @@
     "topic": "geometry",
     "unit": "Algebra Review",
     "prompt": "If f(x) = x^2 - 4, what is f(3)?",
-    "choices": ["5", "9", "13", "-1"],
+    "choices": [
+      "5",
+      "9",
+      "13",
+      "-1"
+    ],
     "answerIndex": 0,
     "explanation": "f(3) = 3^2 - 4 = 9 - 4 = 5."
   },
@@ -195,8 +312,1379 @@
     "topic": "geometry",
     "unit": "Algebra Review",
     "prompt": "Which value makes 2x - 1 > 7 true?",
-    "choices": ["x = 3", "x = 4", "x = 5", "x = 0"],
+    "choices": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 0"
+    ],
     "answerIndex": 2,
     "explanation": "2x - 1 > 7 gives 2x > 8, so x > 4. x = 5 works."
+  },
+  {
+    "id": "chem-guide-001",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "What is the best rule for naming ionic compounds?",
+    "choices": [
+      "Name the metal/cation first, name the nonmetal/anion second, change simple nonmetals to -ide, and use Roman numerals for variable-charge metals.",
+      "Use prefixes on every element and never change endings.",
+      "Name the nonmetal first, then the metal with a prefix.",
+      "Always write the anion first and keep its element name unchanged."
+    ],
+    "answerIndex": 0,
+    "explanation": "Ionic names start with the cation, then the anion. Simple monatomic anions end in -ide; transition metals often need Roman numerals. Examples: NaCl = sodium chloride, FeCl2 = iron(II) chloride, MgO = magnesium oxide.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Ionic = metal + nonmetal or polyatomic ion. No prefixes; use Roman numerals when the metal can have multiple charges."
+  },
+  {
+    "id": "chem-guide-002",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Which set contains correctly named ionic compounds?",
+    "choices": [
+      "NaCl sodium chloride; FeCl2 iron(II) chloride; MgO magnesium oxide",
+      "NaCl sodium monochloride; FeCl2 iron dichloride; MgO magnesium monoxide",
+      "NaCl chlorine sodium; FeCl2 iron chlorine; MgO oxygen magnesium",
+      "NaCl sodium chlorate; FeCl2 iron(III) chloride; MgO magnesium dioxide"
+    ],
+    "answerIndex": 0,
+    "explanation": "The correct examples use cation first, anion second, -ide endings for simple anions, and Roman numeral II for Fe2+.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "For ionic examples, check charges by criss-crossing backward: FeCl2 means Fe is +2 because each Cl is -1."
+  },
+  {
+    "id": "chem-guide-003",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "What is the best rule for naming covalent compounds?",
+    "choices": [
+      "Use prefixes to show atom counts, name the first nonmetal normally, and change the second nonmetal to -ide.",
+      "Name the metal first and use Roman numerals.",
+      "Criss-cross charges to get subscripts.",
+      "Use only polyatomic ion names."
+    ],
+    "answerIndex": 0,
+    "explanation": "Covalent compounds are usually nonmetal + nonmetal and use prefixes such as mono-, di-, tri-, tetra-, and penta-. Examples: CO = carbon monoxide, SO2 = sulfur dioxide, P2O5 = diphosphorus pentoxide.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Covalent = two nonmetals sharing. Prefixes tell subscripts; second element ends in -ide."
+  },
+  {
+    "id": "chem-guide-004",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Which set contains correctly named covalent compounds?",
+    "choices": [
+      "CO carbon monoxide; SO2 sulfur dioxide; P2O5 diphosphorus pentoxide",
+      "CO cobalt oxide; SO2 sulfur oxide; P2O5 phosphorus oxide",
+      "CO carbon oxide; SO2 sulfur dioxygen; P2O5 phosphorus pentoxide",
+      "CO monocarbon monoxide; SO2 sulfate dioxide; P2O5 diphosphorus pentoxygen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Covalent names use prefixes for atom counts; mono- is commonly used on the second element in CO.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Prefix mini-list: mono 1, di 2, tri 3, tetra 4, penta 5, hexa 6, hepta 7, octa 8."
+  },
+  {
+    "id": "chem-guide-005",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Use criss-cross: iron(II) and chlorine form which compound?",
+    "choices": [
+      "FeCl2",
+      "Fe2Cl",
+      "FeCl",
+      "FeCl3"
+    ],
+    "answerIndex": 0,
+    "explanation": "Iron(II) is Fe2+ and chlorine is Cl-. Criss-cross the charge numbers to get FeCl2.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Criss-cross charges, then reduce subscripts if possible.",
+    "walkthrough": [
+      {
+        "prompt": "What is the iron(II) ion charge?",
+        "answer": "2+",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What is the chloride ion charge?",
+        "answer": "1-",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Criss-cross the numbers into subscripts.",
+        "answer": "FeCl2",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-006",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Use criss-cross: magnesium and oxygen form which compound?",
+    "choices": [
+      "MgO",
+      "Mg2O2",
+      "MgO2",
+      "Mg2O"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mg2+ and O2- criss-cross to Mg2O2, then reduce the 2:2 ratio to MgO.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Always reduce ionic subscripts to the lowest whole-number ratio.",
+    "walkthrough": [
+      {
+        "prompt": "What charges do Mg and O usually have?",
+        "answer": "Mg2+ and O2-",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What formula appears before reducing?",
+        "answer": "Mg2O2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What is the reduced formula?",
+        "answer": "MgO",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-007",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Use criss-cross: aluminum and sulfur form which compound?",
+    "choices": [
+      "Al2S3",
+      "Al3S2",
+      "AlS",
+      "Al2S"
+    ],
+    "answerIndex": 0,
+    "explanation": "Aluminum is Al3+ and sulfur forms S2-. Criss-cross to get Al2S3.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 13 metals are usually +3; group 16 nonmetals are usually -2.",
+    "walkthrough": [
+      {
+        "prompt": "Aluminum charge?",
+        "answer": "3+",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Sulfide charge?",
+        "answer": "2-",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Criss-cross formula?",
+        "answer": "Al2S3",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-008",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Use criss-cross: lithium and carbonate form which compound?",
+    "choices": [
+      "Li2CO3",
+      "LiCO3",
+      "Li(CO3)2",
+      "Li3CO3"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lithium is Li+ and carbonate is CO3 2-. Criss-cross to make Li2CO3.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Keep polyatomic ions together; use parentheses only when you need more than one entire polyatomic ion.",
+    "walkthrough": [
+      {
+        "prompt": "Lithium charge?",
+        "answer": "1+",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Carbonate charge?",
+        "answer": "2-",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Formula after criss-cross?",
+        "answer": "Li2CO3",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-009",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the formula for potassium sulfate.",
+    "choices": [
+      "K2SO4",
+      "KSO4",
+      "K(SO4)2",
+      "K2S"
+    ],
+    "answerIndex": 0,
+    "explanation": "Potassium is K+ and sulfate is SO4 2-, so the formula is K2SO4.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Memorize common polyatomic ions: sulfate SO4 2-, carbonate CO3 2-, hydroxide OH-, nitrate NO3-."
+  },
+  {
+    "id": "chem-guide-010",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the formula for lead(II) iodide.",
+    "choices": [
+      "PbI2",
+      "Pb2I",
+      "PbI",
+      "PbI4"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lead(II) is Pb2+ and iodide is I-, so criss-cross gives PbI2.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Roman numeral = cation charge. Lead(II) means Pb2+."
+  },
+  {
+    "id": "chem-guide-011",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the formula for sulfur dioxide.",
+    "choices": [
+      "SO2",
+      "S2O",
+      "SO",
+      "S2O2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dioxide means two oxygen atoms, so sulfur dioxide is SO2.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "In covalent names, prefixes become subscripts directly."
+  },
+  {
+    "id": "chem-guide-012",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the formula for diphosphorus pentoxide.",
+    "choices": [
+      "P2O5",
+      "P5O2",
+      "PO5",
+      "P2O"
+    ],
+    "answerIndex": 0,
+    "explanation": "Di- means 2 phosphorus atoms and pentoxide means 5 oxygen atoms: P2O5.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Covalent prefixes: di = 2 and penta = 5."
+  },
+  {
+    "id": "chem-guide-013",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the name for K2O.",
+    "choices": [
+      "Potassium oxide",
+      "Dipotassium monoxide",
+      "Potassium oxygen",
+      "Potassium peroxide"
+    ],
+    "answerIndex": 0,
+    "explanation": "K is potassium and O is oxide; ionic compounds do not use prefixes.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "If it starts with a metal, think ionic naming."
+  },
+  {
+    "id": "chem-guide-014",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the name for MgCO3.",
+    "choices": [
+      "Magnesium carbonate",
+      "Magnesium carbon trioxide",
+      "Magnesium carbide",
+      "Magnesium carbonite"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mg2+ with carbonate CO3 2- is named magnesium carbonate.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Polyatomic ions keep their special names; CO3 2- is carbonate."
+  },
+  {
+    "id": "chem-guide-015",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the name for Cl2O7.",
+    "choices": [
+      "Dichlorine heptoxide",
+      "Chlorine oxide",
+      "Chlorine septoxide",
+      "Dichloride heptaoxygen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cl2O7 is covalent: two chlorine atoms and seven oxygen atoms gives dichlorine heptoxide.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Hepta = 7; drop the a in heptaoxide to say heptoxide."
+  },
+  {
+    "id": "chem-guide-016",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the name for N2O.",
+    "choices": [
+      "Dinitrogen monoxide",
+      "Nitrogen oxide",
+      "Nitrogen dioxide",
+      "Dinitride oxygen"
+    ],
+    "answerIndex": 0,
+    "explanation": "N2O is covalent, so di- gives dinitrogen and mono- gives monoxide.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Mono- is usually skipped on the first element, but used on the second."
+  },
+  {
+    "id": "chem-guide-017",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the name for CO.",
+    "choices": [
+      "Carbon monoxide",
+      "Carbon oxide",
+      "Cobalt oxide",
+      "Monocarbon oxide"
+    ],
+    "answerIndex": 0,
+    "explanation": "CO is carbon monoxide. The second element uses mono- plus -ide.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "CO is a classic exception students miss: say carbon monoxide, not carbon oxide."
+  },
+  {
+    "id": "chem-guide-018",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the name for AlF3.",
+    "choices": [
+      "Aluminum fluoride",
+      "Aluminum trifluoride",
+      "Aluminum fluorine",
+      "Aluminum(III) fluoride"
+    ],
+    "answerIndex": 0,
+    "explanation": "Aluminum has a fixed +3 charge, so AlF3 is aluminum fluoride.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Fixed-charge metals like Al do not need Roman numerals."
+  },
+  {
+    "id": "chem-guide-019",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Write the name for CaBr2.",
+    "choices": [
+      "Calcium bromide",
+      "Calcium dibromide",
+      "Calcium bromine",
+      "Calcium(II) bromide"
+    ],
+    "answerIndex": 0,
+    "explanation": "Calcium is a group 2 metal and bromine becomes bromide, so CaBr2 is calcium bromide.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 2 metals are always +2, so no Roman numerals."
+  },
+  {
+    "id": "chem-guide-020",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in group 1 elements do what with electrons and what charge do they have?",
+    "choices": [
+      "Lose 1 electron; +1",
+      "Gain 1 electron; -1",
+      "Lose 2 electrons; +2",
+      "Do not gain or lose; 0"
+    ],
+    "answerIndex": 0,
+    "explanation": "Group 1 metals lose one valence electron to form +1 ions.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 1 = +1."
+  },
+  {
+    "id": "chem-guide-021",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in group 2 elements do what with electrons and what charge do they have?",
+    "choices": [
+      "Lose 2 electrons; +2",
+      "Gain 2 electrons; -2",
+      "Lose 1 electron; +1",
+      "Gain 6 electrons; -6"
+    ],
+    "answerIndex": 0,
+    "explanation": "Group 2 metals lose two valence electrons to form +2 ions.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 2 = +2."
+  },
+  {
+    "id": "chem-guide-022",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in group 3 (13) elements do what with electrons and what charge do they have?",
+    "choices": [
+      "Lose 3 electrons; +3",
+      "Gain 3 electrons; -3",
+      "Lose 1 electron; +1",
+      "Do not react; 0"
+    ],
+    "answerIndex": 0,
+    "explanation": "Group 13 elements such as aluminum commonly lose three electrons for +3.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 13 = +3."
+  },
+  {
+    "id": "chem-guide-023",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in carbon in group 4 (14) can do what with electrons and what charges can it have?",
+    "choices": [
+      "Gain or lose 4 electrons; -4 or +4",
+      "Only lose 1 electron; +1",
+      "Only gain 2 electrons; -2",
+      "Never forms charges; 0"
+    ],
+    "answerIndex": 0,
+    "explanation": "Carbon has four valence electrons, so simple classroom charge patterns often list it as gaining or losing 4.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 14 is the split: can be ±4 in simple valence patterns."
+  },
+  {
+    "id": "chem-guide-024",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in nonmetals in group 5 (15) do what with electrons and what charge do they have?",
+    "choices": [
+      "Gain 3 electrons; -3",
+      "Lose 3 electrons; +3",
+      "Gain 5 electrons; -5",
+      "Lose 5 electrons; +5"
+    ],
+    "answerIndex": 0,
+    "explanation": "Group 15 nonmetals gain three electrons to complete an octet.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 15 nonmetals = -3."
+  },
+  {
+    "id": "chem-guide-025",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in nonmetals in group 6 (16) do what with electrons and what charge do they have?",
+    "choices": [
+      "Gain 2 electrons; -2",
+      "Lose 2 electrons; +2",
+      "Gain 6 electrons; -6",
+      "Lose 6 electrons; +6"
+    ],
+    "answerIndex": 0,
+    "explanation": "Group 16 nonmetals gain two electrons to complete an octet.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 16 nonmetals = -2."
+  },
+  {
+    "id": "chem-guide-026",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in group 7 (17) elements do what with electrons and what charge do they have?",
+    "choices": [
+      "Gain 1 electron; -1",
+      "Lose 1 electron; +1",
+      "Gain 7 electrons; -7",
+      "Do not gain or lose; 0"
+    ],
+    "answerIndex": 0,
+    "explanation": "Halogens in group 17 gain one electron to form -1 ions.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Group 17 halogens = -1."
+  },
+  {
+    "id": "chem-guide-027",
+    "topic": "chemistry",
+    "unit": "Investigation 3: Chemical Bonding",
+    "prompt": "Periodic table charges: all elements in group 8 (18) elements usually do what with electrons and what charge do they have?",
+    "choices": [
+      "Do not gain or lose electrons; 0",
+      "Gain 1 electron; -1",
+      "Lose 8 electrons; +8",
+      "Gain 2 electrons; -2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Noble gases already have full valence shells, so they usually have charge 0.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Noble gases are already full: charge 0."
+  },
+  {
+    "id": "chem-guide-028",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Which list shows the generic skeleton equations for the five main reaction types?",
+    "choices": [
+      "Synthesis A + B → AB; decomposition AB → A + B; single replacement A + BC → AC + B; double replacement AB + CD → AD + CB; combustion hydrocarbon + O2 → CO2 + H2O",
+      "Synthesis AB → A + B; decomposition A + B → AB; combustion A + BC → AC + B only",
+      "Only AB + CD → AD + CB for every reaction",
+      "Acid + base → metal + oxygen for all reactions"
+    ],
+    "answerIndex": 0,
+    "explanation": "The five common patterns are synthesis, decomposition, single replacement, double replacement, and combustion.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Reaction pattern cheat: combine, split, swap one, swap two, burn in O2."
+  },
+  {
+    "id": "chem-guide-029",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "When going from a written problem to a skeleton equation, what resource do you need and why?",
+    "choices": [
+      "A periodic table/polyatomic ion list because names must be translated into correct formulas and charges.",
+      "A solubility chart because every word problem forms a precipitate.",
+      "An activity series because all reactions are single replacement.",
+      "No resource is needed because names and formulas are identical."
+    ],
+    "answerIndex": 0,
+    "explanation": "Names must be converted to formulas before balancing; charges and polyatomic ions help you write formulas correctly.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Write formulas first, balance last."
+  },
+  {
+    "id": "chem-guide-030",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "When completing a single replacement reaction, what resource do you need and why?",
+    "choices": [
+      "An activity series to see whether the free element can replace the element in the compound.",
+      "A prefix chart to name covalent compounds.",
+      "A mole road map to convert grams to moles.",
+      "A pH scale to find acids."
+    ],
+    "answerIndex": 0,
+    "explanation": "A single replacement only happens if the lone element is more reactive than the element it would replace.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Single replacement question: check the activity series before predicting products."
+  },
+  {
+    "id": "chem-guide-031",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "When completing a double replacement reaction, what resource do you need and why?",
+    "choices": [
+      "A solubility chart to decide whether an insoluble precipitate forms.",
+      "An activity series to decide if oxygen reacts.",
+      "A periodic trend chart for atomic radius.",
+      "A graphing calculator for slope."
+    ],
+    "answerIndex": 0,
+    "explanation": "Double replacement products are often checked with solubility rules; a precipitate is an insoluble solid product.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Double replacement question: swap ions, then check solubility."
+  },
+  {
+    "id": "chem-guide-032",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Predict products and balance: ___ C4H10 + ___ O2 → ___ ____ + ___ ____",
+    "choices": [
+      "2 C4H10 + 13 O2 → 8 CO2 + 10 H2O",
+      "C4H10 + O2 → C4O2 + H10O",
+      "2 C4H10 + 5 O2 → 4 CO2 + 10 H2O",
+      "C4H10 + 13 O2 → 4 CO2 + 5 H2O"
+    ],
+    "answerIndex": 0,
+    "explanation": "Butane combustion forms CO2 and H2O. Balance C and H first, then O: 2 C4H10 + 13 O2 → 8 CO2 + 10 H2O.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Combustion of a hydrocarbon always makes CO2 + H2O.",
+    "walkthrough": [
+      {
+        "prompt": "What reaction type is this?",
+        "answer": "combustion",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What products should combustion make?",
+        "answer": "CO2 and H2O",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balanced coefficients?",
+        "answer": "2, 13, 8, 10",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-033",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Predict products and balance: ___ NH3 → ___ ____ + ___ ____",
+    "choices": [
+      "2 NH3 → N2 + 3 H2",
+      "NH3 → N + H3",
+      "2 NH3 → 2 N + 3 H2",
+      "NH3 → N2 + H2"
+    ],
+    "answerIndex": 0,
+    "explanation": "This is decomposition. Balance nitrogen and hydrogen: 2 NH3 → N2 + 3 H2.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Diatomic elements to remember: H2, N2, O2, F2, Cl2, Br2, I2.",
+    "walkthrough": [
+      {
+        "prompt": "What reaction type is one reactant breaking apart?",
+        "answer": "decomposition",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Which products are diatomic elements?",
+        "answer": "N2 and H2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balanced equation?",
+        "answer": "2 NH3 → N2 + 3 H2",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-034",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Predict products and balance: ___ Zn + ___ O2 → ___ ____",
+    "choices": [
+      "2 Zn + O2 → 2 ZnO",
+      "Zn + O2 → ZnO2",
+      "Zn + O → ZnO",
+      "2 Zn + 2 O2 → 2 ZnO"
+    ],
+    "answerIndex": 0,
+    "explanation": "Zinc and oxygen synthesize zinc oxide, ZnO. Balance oxygen with 2 ZnO and then 2 Zn.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Synthesis makes one product: A + B → AB.",
+    "walkthrough": [
+      {
+        "prompt": "What product formula forms from Zn2+ and O2-?",
+        "answer": "ZnO",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balance oxygen by making how many ZnO?",
+        "answer": "2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balanced equation?",
+        "answer": "2 Zn + O2 → 2 ZnO",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-035",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Predict products and balance: ___ Mg + ___ HCl → ___ ____ + ___ ____",
+    "choices": [
+      "Mg + 2 HCl → MgCl2 + H2",
+      "Mg + HCl → MgH + Cl",
+      "2 Mg + HCl → MgCl2 + H2",
+      "Mg + HCl2 → MgCl2 + H"
+    ],
+    "answerIndex": 0,
+    "explanation": "Magnesium replaces hydrogen in hydrochloric acid to form MgCl2 and H2. Balanced: Mg + 2 HCl → MgCl2 + H2.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Metal + acid usually makes a salt + H2 gas.",
+    "walkthrough": [
+      {
+        "prompt": "What does Mg replace?",
+        "answer": "H",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What salt formula forms from Mg2+ and Cl-?",
+        "answer": "MgCl2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balanced coefficients?",
+        "answer": "1, 2, 1, 1",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-036",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Identify the precipitate: ___ CuCl2(aq) + ___ KOH(aq) → ___ ____ ( ) + ___ ____ ( )",
+    "choices": [
+      "CuCl2(aq) + 2 KOH(aq) → Cu(OH)2(s) + 2 KCl(aq); precipitate is Cu(OH)2",
+      "CuCl2(aq) + KOH(aq) → CuK(s) + Cl2OH(aq); precipitate is CuK",
+      "CuCl2(aq) + 2 KOH(aq) → CuK2(aq) + 2 ClOH(s); precipitate is ClOH",
+      "CuCl2(aq) + KOH(aq) → no reaction"
+    ],
+    "answerIndex": 0,
+    "explanation": "Double replacement gives Cu(OH)2 and KCl. Copper(II) hydroxide is insoluble, so Cu(OH)2(s) is the precipitate.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Precipitate = insoluble solid product; mark it (s).",
+    "walkthrough": [
+      {
+        "prompt": "Swap partners to predict products.",
+        "answer": "Cu(OH)2 and KCl",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Which product is insoluble?",
+        "answer": "Cu(OH)2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balanced coefficients?",
+        "answer": "1, 2, 1, 2",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-037",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Balance: ___ Na(s) + ___ Cl2(g) → ___ NaCl(s)",
+    "choices": [
+      "2 Na + Cl2 → 2 NaCl",
+      "All coefficients are 1",
+      "2, 2, 1, 1",
+      "1, 2, 1, 1"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chlorine is diatomic, so make 2 NaCl, then balance sodium with 2 Na.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Balance diatomic elements as pairs when they appear alone.",
+    "walkthrough": [
+      {
+        "prompt": "How many Cl atoms are in Cl2?",
+        "answer": "2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Put what coefficient before NaCl?",
+        "answer": "2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Put what coefficient before Na?",
+        "answer": "2",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-038",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Balance: ___ CH4 + ___ O2 → ___ CO2 + ___ H2O",
+    "choices": [
+      "CH4 + 2 O2 → CO2 + 2 H2O",
+      "All coefficients are 1",
+      "2, 2, 1, 1",
+      "1, 2, 1, 1"
+    ],
+    "answerIndex": 0,
+    "explanation": "Balance C, then H, then O: CH4 + 2 O2 → CO2 + 2 H2O.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "For combustion, balance C, H, then O last.",
+    "walkthrough": [
+      {
+        "prompt": "Balance carbon coefficient for CO2.",
+        "answer": "1",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balance hydrogen coefficient for H2O.",
+        "answer": "2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balance oxygen coefficient for O2.",
+        "answer": "2",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-039",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Balance: ___ C2H6 + ___ O2 → ___ CO2 + ___ H2O",
+    "choices": [
+      "2 C2H6 + 7 O2 → 4 CO2 + 6 H2O",
+      "All coefficients are 1",
+      "2, 2, 1, 1",
+      "1, 2, 1, 1"
+    ],
+    "answerIndex": 0,
+    "explanation": "Start with C and H; use 2 C2H6 to avoid fractional O2, giving 2, 7, 4, 6.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "If O2 would need a fraction, double every coefficient.",
+    "walkthrough": [
+      {
+        "prompt": "After doubling ethane, how many CO2?",
+        "answer": "4",
+        "inputType": "text"
+      },
+      {
+        "prompt": "After doubling ethane, how many H2O?",
+        "answer": "6",
+        "inputType": "text"
+      },
+      {
+        "prompt": "How many O2?",
+        "answer": "7",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-040",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Balance: ___ Cl2(aq) + ___ KBr(aq) → ___ KCl(aq) + ___ Br2(aq)",
+    "choices": [
+      "Cl2 + 2 KBr → 2 KCl + Br2",
+      "All coefficients are 1",
+      "2, 2, 1, 1",
+      "1, 2, 1, 1"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chlorine and bromine are diatomic. Two KBr and two KCl balance K and halogens.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Halogens alone are diatomic: Cl2 and Br2.",
+    "walkthrough": [
+      {
+        "prompt": "How many KBr balance Br2?",
+        "answer": "2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "How many KCl balance K?",
+        "answer": "2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Final coefficients?",
+        "answer": "1, 2, 2, 1",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-041",
+    "topic": "chemistry",
+    "unit": "Investigation 6: Chemical Reactions",
+    "prompt": "Balance: ___ PbCl2(aq) + ___ Na2SO4(aq) → ___ PbSO4(s) + ___ NaCl(aq)",
+    "choices": [
+      "PbCl2 + Na2SO4 → PbSO4 + 2 NaCl",
+      "All coefficients are 1",
+      "2, 2, 1, 1",
+      "1, 2, 1, 1"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lead and sulfate are already balanced. Two sodium atoms require 2 NaCl, which also balances chlorine.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Treat unchanged polyatomic ions like sulfate as a unit when balancing.",
+    "walkthrough": [
+      {
+        "prompt": "Which polyatomic ion stays together?",
+        "answer": "SO4",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What coefficient balances Na and Cl in NaCl?",
+        "answer": "2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Final coefficients?",
+        "answer": "1, 1, 1, 2",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-042",
+    "topic": "chemistry",
+    "unit": "Investigation 5: The Mole Concept",
+    "prompt": "What is a mole?",
+    "choices": [
+      "A counting unit equal to 6.02 x 10^23 representative particles",
+      "The mass of exactly one atom in grams",
+      "A unit used only for liquids",
+      "A chemical reaction that releases gas"
+    ],
+    "answerIndex": 0,
+    "explanation": "A mole counts particles, just like a dozen counts 12. One mole equals Avogadro’s number, 6.02 x 10^23.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Mole = 6.02 x 10^23 particles."
+  },
+  {
+    "id": "chem-guide-043",
+    "topic": "chemistry",
+    "unit": "Investigation 5: The Mole Concept",
+    "prompt": "The Mole Road Map page in your notebook should be used for what?",
+    "choices": [
+      "Choosing conversion paths between grams, moles, particles, and liters at STP",
+      "Naming ionic compounds only",
+      "Checking if a precipitate forms",
+      "Finding chess moves"
+    ],
+    "answerIndex": 0,
+    "explanation": "The road map tells which conversion factor connects each unit to moles.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "All mole roads go through moles."
+  },
+  {
+    "id": "chem-guide-044",
+    "topic": "chemistry",
+    "unit": "Investigation 5: The Mole Concept",
+    "prompt": "Which conversion road map is correct?",
+    "choices": [
+      "grams ⇄ moles using molar mass; particles ⇄ moles using 6.02 x 10^23; liters gas at STP ⇄ moles using 22.4 L; use coefficients for mole-to-mole",
+      "grams ⇄ particles directly using 22.4 L; liters ⇄ grams using Avogadro’s number only",
+      "moles ⇄ grams using density; particles ⇄ liters using molar mass",
+      "all conversions use the same number: 100"
+    ],
+    "answerIndex": 0,
+    "explanation": "The core road map has moles in the center, with molar mass, Avogadro’s number, 22.4 L at STP, and coefficient mole ratios as bridges.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Road map: grams --molar mass-- moles --6.02e23-- particles; gas liters at STP --22.4 L-- moles."
+  },
+  {
+    "id": "chem-guide-045",
+    "topic": "chemistry",
+    "unit": "Investigation 5: The Mole Concept",
+    "prompt": "Convert 18 g of carbon to moles of carbon.",
+    "choices": [
+      "1.5 mol C",
+      "18 mol C",
+      "216 mol C",
+      "0.67 mol C"
+    ],
+    "answerIndex": 0,
+    "explanation": "Carbon has molar mass about 12.01 g/mol. 18 g ÷ 12.01 g/mol ≈ 1.5 mol.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Grams to moles = divide by molar mass.",
+    "walkthrough": [
+      {
+        "prompt": "What is carbon’s molar mass in g/mol?",
+        "answer": "12.01",
+        "inputType": "text",
+        "hint": "Use the periodic table."
+      },
+      {
+        "prompt": "Should you multiply or divide grams by molar mass?",
+        "answer": "divide",
+        "inputType": "text"
+      },
+      {
+        "prompt": "18 ÷ 12.01 = ?",
+        "answer": "1.5",
+        "inputType": "number",
+        "hint": "Round to two significant figures."
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-046",
+    "topic": "chemistry",
+    "unit": "Investigation 5: The Mole Concept",
+    "prompt": "Convert 3.7 moles of magnesium to grams of magnesium.",
+    "choices": [
+      "90 g Mg",
+      "0.15 g Mg",
+      "24.3 g Mg",
+      "3.7 g Mg"
+    ],
+    "answerIndex": 0,
+    "explanation": "Magnesium has molar mass about 24.31 g/mol. 3.7 mol × 24.31 g/mol ≈ 90 g.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Moles to grams = multiply by molar mass.",
+    "walkthrough": [
+      {
+        "prompt": "What is magnesium’s molar mass?",
+        "answer": "24.31 g/mol",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Should you multiply or divide?",
+        "answer": "multiply",
+        "inputType": "text"
+      },
+      {
+        "prompt": "3.7 × 24.31 = ?",
+        "answer": "90",
+        "inputType": "text",
+        "hint": "number"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-047",
+    "topic": "chemistry",
+    "unit": "Investigation 5: The Mole Concept",
+    "prompt": "Convert 120 g of CaCO3 to moles of calcium carbonate.",
+    "choices": [
+      "1.2 mol CaCO3",
+      "120 mol CaCO3",
+      "0.83 mol CaCO3",
+      "12 mol CaCO3"
+    ],
+    "answerIndex": 0,
+    "explanation": "CaCO3 molar mass is about 100.09 g/mol. 120 g ÷ 100.09 g/mol ≈ 1.2 mol.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "For compounds, add every atom’s molar mass before converting.",
+    "walkthrough": [
+      {
+        "prompt": "Find molar mass: Ca + C + 3O = ?",
+        "answer": "100.09 g/mol",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Grams to moles means multiply or divide?",
+        "answer": "divide",
+        "inputType": "text"
+      },
+      {
+        "prompt": "120 ÷ 100.09 = ?",
+        "answer": "1.2",
+        "inputType": "text",
+        "hint": "number"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-048",
+    "topic": "chemistry",
+    "unit": "Investigation 5: Stoichiometry",
+    "prompt": "Given 2Mg + O2 → 2MgO, how many moles of MgO form from 4.5 moles Mg?",
+    "choices": [
+      "4.5 mol MgO",
+      "2.25 mol MgO",
+      "9.0 mol MgO",
+      "1.0 mol MgO"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Mg:MgO coefficient ratio is 2:2, or 1:1, so 4.5 mol Mg makes 4.5 mol MgO.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Stoichiometry uses coefficient ratios from the balanced equation.",
+    "walkthrough": [
+      {
+        "prompt": "What is the Mg to MgO mole ratio?",
+        "answer": "2:2 or 1:1",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Set up 4.5 mol Mg × (2 mol MgO / 2 mol Mg).",
+        "answer": "4.5 mol MgO",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-049",
+    "topic": "chemistry",
+    "unit": "Investigation 5: Stoichiometry",
+    "prompt": "Given C3H8 + 5O2 → 3CO2 + 4H2O, how many liters CO2 at STP form from 4.0 moles propane?",
+    "choices": [
+      "270 L CO2",
+      "12 L CO2",
+      "89.6 L CO2",
+      "4.0 L CO2"
+    ],
+    "answerIndex": 0,
+    "explanation": "1 mol propane makes 3 mol CO2, so 4.0 mol C3H8 makes 12.0 mol CO2. At STP, 12.0 × 22.4 L = 268.8 L ≈ 270 L.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "At STP, 1 mol gas = 22.4 L.",
+    "walkthrough": [
+      {
+        "prompt": "Use coefficients: 1 mol C3H8 makes how many mol CO2?",
+        "answer": "3",
+        "inputType": "text"
+      },
+      {
+        "prompt": "4.0 mol C3H8 makes how many mol CO2?",
+        "answer": "12.0",
+        "inputType": "text",
+        "hint": "number"
+      },
+      {
+        "prompt": "12.0 × 22.4 L = ?",
+        "answer": "268.8 L",
+        "inputType": "text",
+        "hint": "number"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-050",
+    "topic": "chemistry",
+    "unit": "Investigation 5: Stoichiometry",
+    "prompt": "Given 2H2 + O2 → 2H2O, how many grams of water form from 6 g H2?",
+    "choices": [
+      "54 g H2O",
+      "6 g H2O",
+      "18 g H2O",
+      "108 g H2O"
+    ],
+    "answerIndex": 0,
+    "explanation": "6 g H2 ÷ 2.016 g/mol ≈ 2.98 mol H2. The H2:H2O ratio is 2:2, so 2.98 mol H2O forms. 2.98 × 18.02 ≈ 54 g H2O.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Stoich path: grams given → moles given → moles wanted → grams wanted.",
+    "walkthrough": [
+      {
+        "prompt": "Convert 6 g H2 to moles.",
+        "answer": "2.98 mol H2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What is the H2:H2O ratio?",
+        "answer": "1:1",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Convert 2.98 mol H2O to grams.",
+        "answer": "54 g H2O",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-051",
+    "topic": "chemistry",
+    "unit": "Investigation 5: Stoichiometry",
+    "prompt": "Given 2Mg + O2 → 2MgO, how many grams Mg are required to produce 3.2 x 10^23 particles of MgO?",
+    "choices": [
+      "13 g Mg",
+      "24 g Mg",
+      "6.4 g Mg",
+      "3.2 g Mg"
+    ],
+    "answerIndex": 0,
+    "explanation": "Convert particles MgO to moles: 3.2 x 10^23 ÷ 6.02 x 10^23 = 0.53 mol MgO. The Mg:MgO ratio is 1:1, so 0.53 mol Mg. Multiply by 24.31 g/mol = 13 g Mg.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Particles → moles with Avogadro’s number before using mole ratios.",
+    "walkthrough": [
+      {
+        "prompt": "Convert particles MgO to moles.",
+        "answer": "0.53 mol MgO",
+        "inputType": "text"
+      },
+      {
+        "prompt": "What is the Mg:MgO mole ratio?",
+        "answer": "1:1",
+        "inputType": "text"
+      },
+      {
+        "prompt": "0.53 mol Mg × 24.31 g/mol = ?",
+        "answer": "13 g Mg",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-052",
+    "topic": "chemistry",
+    "unit": "Mega Problem",
+    "prompt": "Zinc + copper(I) sulfate → What type of reaction is this?",
+    "choices": [
+      "Single replacement",
+      "Double replacement",
+      "Combustion",
+      "Decomposition"
+    ],
+    "answerIndex": 0,
+    "explanation": "A free metal, zinc, replaces copper in a compound, so this is single replacement.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Metal + ionic compound often signals single replacement."
+  },
+  {
+    "id": "chem-guide-053",
+    "topic": "chemistry",
+    "unit": "Mega Problem",
+    "prompt": "Zinc + copper(I) sulfate → Predict the products.",
+    "choices": [
+      "zinc sulfate + copper",
+      "zinc copper + sulfate",
+      "zinc oxide + copper sulfide",
+      "no products"
+    ],
+    "answerIndex": 0,
+    "explanation": "Zinc replaces copper to form zinc sulfate and copper metal.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "In single replacement, A + BC → AC + B if A is more reactive."
+  },
+  {
+    "id": "chem-guide-054",
+    "topic": "chemistry",
+    "unit": "Mega Problem",
+    "prompt": "Write the balanced equation for zinc + copper(I) sulfate. Remember criss-cross.",
+    "choices": [
+      "Zn + Cu2SO4 → ZnSO4 + 2Cu",
+      "Zn + CuSO4 → ZnSO4 + Cu",
+      "2Zn + Cu2SO4 → 2ZnSO4 + Cu",
+      "Zn + Cu2SO4 → Zn2SO4 + Cu"
+    ],
+    "answerIndex": 0,
+    "explanation": "Copper(I) is Cu+ and sulfate is SO4 2-, so copper(I) sulfate is Cu2SO4. Zinc forms Zn2+, so zinc sulfate is ZnSO4. Balanced: Zn + Cu2SO4 → ZnSO4 + 2Cu.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Copper(I) means Cu+, so sulfate needs two copper ions: Cu2SO4.",
+    "walkthrough": [
+      {
+        "prompt": "Formula for copper(I) sulfate?",
+        "answer": "Cu2SO4",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Formula for zinc sulfate?",
+        "answer": "ZnSO4",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Balance copper atoms with what coefficient?",
+        "answer": "2 before Cu",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-055",
+    "topic": "chemistry",
+    "unit": "Mega Problem",
+    "prompt": "Find the molar mass of copper(I) sulfate, Cu2SO4.",
+    "choices": [
+      "223.15 g/mol",
+      "159.61 g/mol",
+      "127.09 g/mol",
+      "95.61 g/mol"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cu2SO4 molar mass = 2(63.55) + 32.06 + 4(16.00) = 223.16 g/mol.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Molar mass of a compound = add each atom, including subscripts.",
+    "walkthrough": [
+      {
+        "prompt": "Mass from 2 copper atoms.",
+        "answer": "127.10 g/mol",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Mass from sulfur plus four oxygen atoms.",
+        "answer": "96.06 g/mol",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Total molar mass.",
+        "answer": "223.16 g/mol",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-056",
+    "topic": "chemistry",
+    "unit": "Mega Problem",
+    "prompt": "From Zn + Cu2SO4 → ZnSO4 + 2Cu, how many moles Zn are needed to produce 4 moles Cu?",
+    "choices": [
+      "2 mol Zn",
+      "4 mol Zn",
+      "1 mol Zn",
+      "8 mol Zn"
+    ],
+    "answerIndex": 0,
+    "explanation": "The balanced equation shows 1 mol Zn produces 2 mol Cu. To produce 4 mol Cu, you need 2 mol Zn.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Use coefficient ratios: 1 Zn : 2 Cu.",
+    "walkthrough": [
+      {
+        "prompt": "What is the Zn:Cu ratio?",
+        "answer": "1:2",
+        "inputType": "text"
+      },
+      {
+        "prompt": "4 mol Cu × (1 mol Zn / 2 mol Cu) = ?",
+        "answer": "2 mol Zn",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-057",
+    "topic": "chemistry",
+    "unit": "Mega Problem",
+    "prompt": "How many grams of copper are produced if 5.6 moles of copper(I) sulfate react?",
+    "choices": [
+      "710 g Cu",
+      "356 g Cu",
+      "180 g Cu",
+      "5.6 g Cu"
+    ],
+    "answerIndex": 0,
+    "explanation": "1 mol Cu2SO4 produces 2 mol Cu, so 5.6 mol Cu2SO4 produces 11.2 mol Cu. 11.2 × 63.55 g/mol = 711.8 g, about 710 g Cu.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Moles compound → moles wanted using coefficients → grams wanted.",
+    "walkthrough": [
+      {
+        "prompt": "5.6 mol Cu2SO4 makes how many mol Cu?",
+        "answer": "11.2 mol",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Copper molar mass?",
+        "answer": "63.55 g/mol",
+        "inputType": "text"
+      },
+      {
+        "prompt": "11.2 × 63.55 = ?",
+        "answer": "711.8 g",
+        "inputType": "text"
+      }
+    ]
+  },
+  {
+    "id": "chem-guide-058",
+    "topic": "chemistry",
+    "unit": "Mega Problem",
+    "prompt": "If you had 38 g copper(I) sulfate, how many grams of copper would be produced?",
+    "choices": [
+      "22 g Cu",
+      "11 g Cu",
+      "38 g Cu",
+      "5.4 g Cu"
+    ],
+    "answerIndex": 0,
+    "explanation": "38 g Cu2SO4 ÷ 223.16 g/mol = 0.170 mol Cu2SO4. The ratio gives 0.340 mol Cu. 0.340 × 63.55 g/mol = 21.6 g Cu, about 22 g.",
+    "sourceChip": "From chemistry study guide",
+    "notecardTip": "Full road map: grams Cu2SO4 → moles Cu2SO4 → moles Cu → grams Cu.",
+    "walkthrough": [
+      {
+        "prompt": "38 g ÷ 223.16 g/mol = ?",
+        "answer": "0.170 mol Cu2SO4",
+        "inputType": "text"
+      },
+      {
+        "prompt": "Use 1:2 ratio to get moles Cu.",
+        "answer": "0.340 mol Cu",
+        "inputType": "text"
+      },
+      {
+        "prompt": "0.340 × 63.55 = ?",
+        "answer": "21.6 g Cu",
+        "inputType": "text"
+      }
+    ]
   }
 ]
