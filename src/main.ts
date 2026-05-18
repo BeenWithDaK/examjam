@@ -27,6 +27,13 @@ type GraphSpec = {
   lines?: GraphLine[];
 };
 
+type WalkthroughStep = {
+  prompt: string;
+  answer: string;
+  inputType?: "text" | "number";
+  hint?: string;
+};
+
 type Question = {
   id: string;
   topic: Topic;
@@ -36,6 +43,9 @@ type Question = {
   answerIndex: number;
   explanation?: string;
   graph?: GraphSpec;
+  sourceChip?: string;
+  notecardTip?: string;
+  walkthrough?: WalkthroughStep[];
 };
 
 type PendingMove = {
@@ -804,11 +814,14 @@ function renderQuestionModal(): string {
         <div class="question-topline">
           <span class="topic-pill compact" style="--topic: ${topic.accent}">${topic.short}</span>
           ${activeQuiz.retry ? `<span class="retry-chip">Let's try again</span>` : ""}
+          ${question.sourceChip ? `<span class="source-chip">${question.sourceChip}</span>` : ""}
           <span>${playerName(activeQuiz.player)}</span>
         </div>
         <p class="unit-label">${question.unit}</p>
         <h2>${question.prompt}</h2>
+        ${question.notecardTip ? `<aside class="notecard-tip"><strong>Notecard tip</strong><p>${question.notecardTip}</p></aside>` : ""}
         ${question.graph ? renderGraph(question.graph) : ""}
+        ${question.walkthrough ? renderWalkthrough(question.walkthrough, activeQuiz.result !== "pending") : ""}
         <div class="answers">
           ${question.choices
             .map((choice, index) => {
@@ -840,6 +853,32 @@ function renderQuestionModal(): string {
         <p class="question-foot">${current.missedIds.length} retry ${current.missedIds.length === 1 ? "card" : "cards"} waiting</p>
       </section>
     </div>
+  `;
+}
+
+function renderWalkthrough(steps: WalkthroughStep[], revealAnswers: boolean): string {
+  return `
+    <section class="walkthrough" aria-label="Guided walkthrough">
+      <div class="walkthrough-heading">
+        <strong>Guided walkthrough</strong>
+        <span>Fill the blanks before choosing an answer.</span>
+      </div>
+      ${steps
+        .map((step, index) => {
+          const inputType = step.inputType ?? "text";
+          return `
+            <label class="walkthrough-step">
+              <span class="step-number">${index + 1}</span>
+              <span class="step-body">
+                <span class="step-prompt">${step.prompt}</span>
+                ${step.hint ? `<small>${step.hint}</small>` : ""}
+                <input type="${inputType}" ${inputType === "number" ? 'inputmode="decimal"' : ""} placeholder="Fill in..." ${revealAnswers ? `value="${step.answer}" disabled` : ""} />
+              </span>
+            </label>
+          `;
+        })
+        .join("")}
+    </section>
   `;
 }
 
